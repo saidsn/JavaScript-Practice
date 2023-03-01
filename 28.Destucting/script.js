@@ -188,6 +188,11 @@
 // let [Name,Category,Size,Count] = getArray(product);
 // console.log(Name);
 
+// function SumAndMultiply(a,b){
+//      return [a+b, a*b];
+// }
+// let [Sum,Multiply] = SumAndMultiply(2,3);
+// console.log(Sum,Multiply);
 
 //todo: Arreyden çıxarılan dəyər qeyri-müəyyən olduğu halda, defolt dəyərlər dəyişənlərə təyin edilə bilər;
 
@@ -197,3 +202,25 @@
 // console.log(Price);
 
 
+//todo: Objectlerin birlesdirilmesi; eyni propertileri override edir;
+// let personOne = {
+//     name: "Seid",
+//     surname: "Nuraliyev",
+//     address: {
+//         counrty:"Azerbaijan",
+//         city:"Baku"
+//     }
+// };
+
+// let personTwo = {
+//     name: "Orxan",
+//     age: "32",
+//     hobbi:{
+//         game: "Football",
+//         art: "Gitar"
+//     }
+// }
+
+// let personThree = {...personOne, ...personTwo};
+
+// console.log(personThree);
