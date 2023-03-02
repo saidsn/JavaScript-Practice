@@ -1,5 +1,12 @@
 "use strict";
 
+
+//todo:  Eyer "..." Funksiyanin sonunda yer alirsa bu "Rest" parametridir ve geriye qalanlari bir arrye yigir.
+//todo:  Eyer ... Funksiya cagrilanda ve ya benzer bir sekilde isledilirse buna "Spread" operatoru deyilir ve arreyi liste çevirir.
+//todo: "Rest" parameetri isteye göre arqument girmek ucun istifade olunur.
+//todo: "Spread" Operatoru arreyi normalda arqument listi qebul eden funksiyaya parametr olaraq istifade olunur.
+
+
 //! Spread Operator;
 
 //todo: "..." spread sintaksisi hərfi mənada “qalan parametrləri massivdə toplamaq” deməkdir.
@@ -29,5 +36,20 @@
 
 // Num = [...Numbers];
 // console.log(Num);
+
+
+//! Rest parametri;
+
+// let Num = (a, b, ...others) => {
+//     let sum = a + b;
+//     console.log(sum);
+//     console.log(others);
+// }
+
+// Num(1, 2, 3, 4, 5);
+
+
+
+
 
 
