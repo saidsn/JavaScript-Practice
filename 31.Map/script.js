@@ -99,11 +99,11 @@ let map  = new Map();
 
 
 
-// map.set( "name","Seid")
-// map.set("surname","Nuraliyev")
-// map.set("age","33")
-// map.set("city","Baku")   // key is primitiv type;
-// map.set([1,2,3],"Baku")   // key is non-primitiv type;
+map.set( "name","Seid")
+map.set("surname","Nuraliyev")
+map.set("age","33")
+map.set("city","Baku")   // key is primitiv type;
+map.set([1,2,3],"Baku")   // key is non-primitiv type;
 
 // //todo: For excample;
 
@@ -111,10 +111,10 @@ let map  = new Map();
 // console.log(map.get([1,2,3])); // undefined;
 
 // //todo: non-primitiv typelara deyer elan edib gostermek olar;
-// let key = [1,2,3];
+let key = [1,2,3];
 
-// map.set(key,"Baku") 
-// console.log(map.get(key)); 
+map.set(key,"Baku") 
+console.log(map.get(key)); 
 
 
 
