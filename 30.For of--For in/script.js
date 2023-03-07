@@ -2,8 +2,6 @@
 
 //! For of---For in;
 
-
-
 //? For in;
 
 
@@ -14,6 +12,8 @@
 // for (const name in Names) {
 //     console.log(name + "-" + Names[name]);
 // }
+
+//? For of;
 
 //todo: For of -- Arreyden datalari deyerine gore alir;
 
