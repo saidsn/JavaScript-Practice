@@ -10,10 +10,10 @@ let set  = new Set();
 
 
 //todo; Add() metodu ile set kolleksiyasina data elave edirik;
-set.add("Seid");
-set.add(true);
-set.add(33);
-set.add({name: "Ali", username: "Aliyev"});
+// set.add("Seid");
+// set.add(true);
+// set.add(33);
+// set.add({name: "Ali", username: "Aliyev"});
 // console.log(set);
 
 //todo: Set-ile Map arasindaki ferq odur ki, Set()-de tekrar deyerler saxlamaq olmaz;
@@ -38,9 +38,14 @@ set.add({name: "Ali", username: "Aliyev"});
 // console.log(delete({name: "Ali", username: "Aliyev"})); //true qaytarsada silmeyecek;
 // console.log(set.size);
 
-// let ok = {name: "Ali", username: "Aliyev"};
-// set.delete(ok);
+// set.add("Seid");
+// set.add(true);
+// set.add(33);
+// set.add({name: "Ali", username: "Aliyev"});
 
+// let array = Array.from(set);
+
+// set.delete(array[3])
 // console.log(set.size);
 
 //todo; Set kolleksiyasinda deyerin olub olmadığını yoxlamaq has() metodu isledilir.(true-false qaytarir);
